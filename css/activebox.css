@@ -8,11 +8,13 @@ body {
 }
 
 .header-nav__menu,
-.feature-list {
+.feature-list,
+.portfolio-list {
     list-style-type: none;
 }
 .header-nav__menu-item,
-.feature-list__item {
+.feature-list__item,
+.portfolio-list__item {
     display: inline-block;
 }
 
@@ -134,4 +136,62 @@ body {
     font-size: 14px;
     color: #6c7279;
     line-height: 20px;
+}
+
+.portfolio-list {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+.portfolio-list__item {
+    width: 25%;
+    height: 350px;
+    background: black;
+    color: white;
+    box-sizing: border-box;
+    border: 1px solid white;
+}
+.work_1 {
+    background: url("../img/work_1.png") no-repeat;
+}
+.work_2 {
+    background: url("../img/work_2.png") no-repeat;
+}
+.work_3 {
+    background: url("../img/work_3.png") no-repeat;
+}
+.work_4 {
+    background: url("../img/work_4.png") no-repeat;
+}
+.work_5 {
+    background: url("../img/work_5.png") no-repeat;
+}
+.work_6 {
+    background: url("../img/work_6.png") no-repeat;
+}
+.work_7 {
+    background: url("../img/work_7.png") no-repeat;
+}
+.work_8 {
+    background: url("../img/work_8.png") no-repeat;
+}
+.portfolio-list__item-hover {
+    width: 100%;
+    height: 100%;
+    background-color: #e84545;
+    opacity: 0;
+}
+.portfolio-list__item-hover:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+.portfolio-list__item-title {
+    margin: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-top: 152px;
+    padding-bottom: 10px;
+}
+.portfolio-list__item-caption {
+    font-size: 14px;
 }
