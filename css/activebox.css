@@ -7,10 +7,12 @@ body {
     text-align: center;
 }
 
-.header-nav__menu {
+.header-nav__menu,
+.feature-list {
     list-style-type: none;
 }
-.header-nav__menu-item {
+.header-nav__menu-item,
+.feature-list__item {
     display: inline-block;
 }
 
@@ -82,4 +84,54 @@ body {
 .header-banner__button:hover {
     cursor: pointer;
     opacity: 0.75;
+}
+
+.features {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 84px 0;
+}
+.feature-list {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+.feature-list__item {
+    max-width: 330px;
+    padding: 30px;
+}
+.feature-list__item-img {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+}
+.icon-customized {
+    background: url("../img/feature_customized.png") no-repeat;
+}
+.icon-responsive {
+    background: url("../img/feature_responsive.png") no-repeat;
+}
+.icon-modern {
+    background: url("../img/feature_modern.png") no-repeat;
+}
+.icon-clean {
+    background: url("../img/feature_clean.png") no-repeat;
+}
+.icon-ship {
+    background: url("../img/feature_ship.png") no-repeat;
+}
+.icon-download {
+    background: url("../img/feature_download.png") no-repeat;
+}
+.feature-list__item-title {
+    font-size: 14px;
+    color: #2d3033;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 22px;
+}
+.feature-list__item-caption {
+    font-size: 14px;
+    color: #6c7279;
+    line-height: 20px;
 }
