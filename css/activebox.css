@@ -242,3 +242,23 @@ body {
     opacity: 0.75;
     cursor: pointer;
 }
+
+.footer {
+    background-color: #313454;
+    padding: 40px 0;
+}
+.footer-text {
+    font-size: 14px;
+    color: white;
+    line-height: 16px;
+    opacity: 0.25;
+}
+.footer-text-symbol {
+    color: #e84545;
+    font-size: 12px;
+}
+.footer-text-white {
+    font-size: 14px;
+    color: white;
+    line-height: 16px;
+}
