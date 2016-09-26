@@ -195,3 +195,50 @@ body {
 .portfolio-list__item-caption {
     font-size: 14px;
 }
+
+.info {
+    background-color: #3a3e64;
+    padding-bottom: 100px;
+}
+.info-location,
+.info-links,
+.info-about {
+    display: inline-block;
+    font-size: 0;
+    color: white;
+    vertical-align: top;
+    padding-top: 70px;
+    min-width: 390px;
+}
+.info-title {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 14px;
+}
+.info-caption {
+    font-size: 14px;
+    opacity: 0.5;
+    line-height: 24px;
+}
+.info-links__img {
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 2px;
+    display: inline-block;
+    margin: 0 3px;
+}
+.icon_fb {
+    background: url("../img/icon_share_fb.png") no-repeat;
+}
+.icon_twitter {
+    background: url("../img/icon_share_twitter.png") no-repeat;
+}
+.icon_in {
+    background: url("../img/icon_share_in.png") no-repeat;
+}
+.info-links__img:hover {
+    opacity: 0.75;
+    cursor: pointer;
+}
