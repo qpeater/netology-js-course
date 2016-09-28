@@ -1,4 +1,5 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Raleway:400,700';
+@import "icons.css" screen;
 
 body {
     font-family: 'Raleway', sans-serif;
@@ -158,24 +159,6 @@ body {
     height: 80px;
     margin: 0 auto;
 }
-.icon-customized {
-    background: url("../img/feature_customized.png") no-repeat;
-}
-.icon-responsive {
-    background: url("../img/feature_responsive.png") no-repeat;
-}
-.icon-modern {
-    background: url("../img/feature_modern.png") no-repeat;
-}
-.icon-clean {
-    background: url("../img/feature_clean.png") no-repeat;
-}
-.icon-ship {
-    background: url("../img/feature_ship.png") no-repeat;
-}
-.icon-download {
-    background: url("../img/feature_download.png") no-repeat;
-}
 .feature-list__item-title {
     font-size: 14px;
     color: #2d3033;
@@ -334,18 +317,6 @@ body {
     opacity: 1;
     cursor: pointer;
 }
-.icon_fb-black {
-    background: url("../img/icon_share_fb-black.png") no-repeat;
-    background-position: center
-}
-.icon_twitter-black {
-    background: url("../img/icon_share_twitter-black.png") no-repeat;
-    background-position: center
-}
-.icon_in-black {
-    background: url("../img/icon_share_in-black.png") no-repeat;
-    background-position: center
-}
 
 .info {
     background-color: #3a3e64;
@@ -381,18 +352,7 @@ body {
     margin: 0 3px;
     box-sizing: border-box;
 }
-.icon_fb {
-    background: url("../img/icon_share_fb.png") no-repeat;
-    background-position: center;
-}
-.icon_twitter {
-    background: url("../img/icon_share_twitter.png") no-repeat;
-    background-position: center;
-}
-.icon_in {
-    background: url("../img/icon_share_in.png") no-repeat;
-    background-position: center;
-}
+
 .info-links__img:hover {
     opacity: 0.75;
     cursor: pointer;
