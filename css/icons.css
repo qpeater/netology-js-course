@@ -1,0 +1,21 @@
+.icon-customized {
+    background: url("../img/feature_customized.png") no-repeat;
+}
+.icon-responsive {
+    background: url("../img/feature_responsive.png") no-repeat;
+}
+.icon-modern {
+    background: url("../img/feature_modern.png") no-repeat;
+}
+.icon-clean {
+    background: url("../img/feature_clean.png") no-repeat;
+}
+.icon-ship {
+    background: url("../img/feature_ship.png") no-repeat;
+}
+.icon-download {
+    background: url("../img/feature_download.png") no-repeat;
+}
+.icon_fb-black {
+    background: url("../img/icon_share_fb-black.png") no-repeat;
+}
