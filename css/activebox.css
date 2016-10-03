@@ -242,11 +242,13 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     font-size: 0;
+    padding-top: 50px;
+    padding-bottom: 75px;
 }
 .team-list__item {
     text-align: left;
     max-width: 270px;
-    margin: 100px 15px 125px 15px;
+    margin: 50px 15px;
 }
 .team-list__item-photo {
     width: 270px;
@@ -311,7 +313,7 @@ body {
 
 .info {
     background-color: #3a3e64;
-    padding-bottom: 100px;
+    padding-bottom: 65px;
 }
 .info-location,
 .info-links,
