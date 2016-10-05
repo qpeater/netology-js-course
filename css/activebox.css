@@ -249,27 +249,6 @@ body {
     max-width: 270px;
     margin: 50px 15px;
 }
-.team-list__item-photo {
-    width: 270px;
-    height: 270px;
-    background: black;
-}
-.photo_woods {
-    background: url("../img/photo_woods.png") no-repeat;
-    background-position: center;
-}
-.photo_reed {
-    background: url("../img/photo_reed.png") no-repeat;
-    background-position: center;
-}
-.photo_valdez {
-    background: url("../img/photo_valdez.png") no-repeat;
-    background-position: center;
-}
-.photo_little {
-    background: url("../img/photo_little.png") no-repeat;
-    background-position: center;
-}
 .team-list__item-name {
     font-size: 22px;
     color: #2d3033;
