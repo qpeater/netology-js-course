@@ -15,7 +15,7 @@ body {
 }
 
 .header {
-    background: url("../img/background.png") no-repeat;
+    background: url("../img/background.jpg") no-repeat;
     background-size: cover;
 }
 .header-nav {
@@ -141,8 +141,8 @@ body {
 }
 .feature-list__item {
     max-width: 330px;
-    padding: 25px 30px;
-    margin: 0;
+    padding: 80px 30px 45px 30px;
+    background-position: center top;
 }
 .feature-list__item-img {
     width: 80px;
@@ -172,39 +172,38 @@ body {
     color: white;
     box-sizing: border-box;
     border: 1px solid white;
-    margin: 0;
 }
 .work_1 {
     background: url("../img/work_1.png") no-repeat;
-    background-position: center;
+    background-position: cover;
 }
 .work_2 {
     background: url("../img/work_2.png") no-repeat;
-    background-position: center;
+    background-position: cover;
 }
 .work_3 {
     background: url("../img/work_3.png") no-repeat;
-    background-position: center;
+    background-position: cover;
 }
 .work_4 {
     background: url("../img/work_4.png") no-repeat;
-    background-position: center;
+    background-position: cover;
 }
 .work_5 {
     background: url("../img/work_5.png") no-repeat;
-    background-position: center;
+    background-position: cover;
 }
 .work_6 {
     background: url("../img/work_6.png") no-repeat;
-    background-position: center;
+    background-position: cover;
 }
 .work_7 {
     background: url("../img/work_7.png") no-repeat;
-    background-position: center;
+    background-position: cover;
 }
 .work_8 {
     background: url("../img/work_8.png") no-repeat;
-    background-position: center;
+    background-position: cover;
 }
 .portfolio-list__item-hover {
     width: 100%;
@@ -282,6 +281,7 @@ body {
     display: block;
     text-transform: uppercase;
     font-size: 13px;
+    font-weight: lighter;
     color: #e84545;
     margin-bottom: 24px;
 }
@@ -313,6 +313,7 @@ body {
 
 .info {
     background-color: #3a3e64;
+    padding-bottom: 56px;
 }
 .info-location,
 .info-links,
@@ -334,6 +335,8 @@ body {
     font-size: 14px;
     opacity: 0.5;
     line-height: 24px;
+    width: 300px;
+    margin: 0 auto;
 }
 .info-link {
     width: 40px;
@@ -354,13 +357,14 @@ body {
 .footer {
     background-color: #313454;
     padding: 40px 0;
-    margin-top: 65px;
 }
 .footer-text {
     font-size: 14px;
-    color: white;
-    line-height: 16px;
-    opacity: 0.25;
+    color: #63667D;
+    line-height: 20px;
+    width: 320px;
+    margin: 0 auto;
+    display: block;
 }
 .info-list {
     padding: 0;
